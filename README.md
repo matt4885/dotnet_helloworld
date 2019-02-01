@@ -21,7 +21,13 @@ Okay, now that we have organized a project under our solution into it's own fold
 dotnet publish -c Release -o out
 ```
 
-This build our application in Release mode into a folder called "out". The executable project is the one that will contain all of the .dlls/.pdbs, etc. for release. Finally, let's run our application.
+This build our application in Release mode into a folder called "out". The executable project is the one that will contain all of the .dlls/.pdbs, etc. for release. Finally, let's run our application via our executable proejct.
+```
+cd App.HelloWorld
+dotnet run
+```
+
+Alternatively, we can point dotnet to the .dll directly:
 ```
 dotnet App.HelloWorld/out/App.HelloWorld.dll
 ```
