@@ -5,7 +5,6 @@ This is a test project used to demonstrate using the dotnet CLI
 mkdir App.HelloWorld && cd App.HelloWorld
 dotnet new console
 dotnet new sln
-
 ```
 
 This generates a solution for your .NET Core app. Let's clean up the directory strcuture a bit (as if we were going to have multiple projects):
