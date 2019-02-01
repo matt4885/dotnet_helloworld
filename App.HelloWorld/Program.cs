@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kempey.HelloWorld
+namespace App.HelloWorld
 {
     class Program
     {
