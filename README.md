@@ -35,5 +35,3 @@ We should see the following:
 ```
 Hello World!
 ```
-
-
